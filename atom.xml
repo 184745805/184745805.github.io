@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-08T01:02:24.077Z</updated>
+  <updated>2023-12-11T01:43:41.854Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>”hexo如何进行博客编写“</title>
+    <title>hexo如何进行博客编写</title>
     <link href="http://example.com/2023/12/07/hexo%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99/"/>
     <id>http://example.com/2023/12/07/hexo%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99/</id>
     <published>2023-12-07T11:28:19.000Z</published>
-    <updated>2023-12-08T01:02:24.077Z</updated>
+    <updated>2023-12-11T01:43:41.854Z</updated>
     
     <content type="html"><![CDATA[<p>背景介绍<br>   目前有很多博客平台，简书、CSDN等等，但是作为程序猿，就应该装逼搞个自己的私人博客平台，能够自己DIY。网上有很多这种博客，写这篇文章的目的，主要是记录自己创建博客的一个历程，如果你还没有创建过，不妨跟着这篇博客做起来。这篇文章是基于Windows平台的，mac和Linux 的请绕道。</p>]]></content>
     
