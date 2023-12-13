@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-13T02:00:59.813Z</updated>
+  <updated>2023-12-13T12:03:15.357Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2023/12/07/hexo%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99/"/>
     <id>http://example.com/2023/12/07/hexo%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99/</id>
     <published>2023-12-07T11:28:19.000Z</published>
-    <updated>2023-12-13T02:00:59.813Z</updated>
+    <updated>2023-12-13T12:03:15.357Z</updated>
     
     <content type="html"><![CDATA[<h2 id="背景介绍-目前有很多博客平台，简书、CSDN等等，但是作为程序猿，就应该装逼搞个自己的私人博客平台，能够自己DIY。网上有很多这种博客，写这篇文章的目的，主要是记录自己创建博客的一个历程，如果你还没有创建过，不妨跟着这篇博客做起来。这篇文章是基于Windows平台的，mac和Linux-的请绕道。"><a href="#背景介绍-目前有很多博客平台，简书、CSDN等等，但是作为程序猿，就应该装逼搞个自己的私人博客平台，能够自己DIY。网上有很多这种博客，写这篇文章的目的，主要是记录自己创建博客的一个历程，如果你还没有创建过，不妨跟着这篇博客做起来。这篇文章是基于Windows平台的，mac和Linux-的请绕道。" class="headerlink" title="背景介绍   目前有很多博客平台，简书、CSDN等等，但是作为程序猿，就应该装逼搞个自己的私人博客平台，能够自己DIY。网上有很多这种博客，写这篇文章的目的，主要是记录自己创建博客的一个历程，如果你还没有创建过，不妨跟着这篇博客做起来。这篇文章是基于Windows平台的，mac和Linux 的请绕道。"></a>背景介绍<br>   目前有很多博客平台，简书、CSDN等等，但是作为程序猿，就应该装逼搞个自己的私人博客平台，能够自己DIY。网上有很多这种博客，写这篇文章的目的，主要是记录自己创建博客的一个历程，如果你还没有创建过，不妨跟着这篇博客做起来。这篇文章是基于Windows平台的，mac和Linux 的请绕道。</h2>]]></content>
     
@@ -29,6 +29,38 @@
       
       
     <summary type="html">&lt;h2 id=&quot;背景介绍-目前有很多博客平台，简书、CSDN等等，但是作为程序猿，就应该装逼搞个自己的私人博客平台，能够自己DIY。网上有很多这种博客，写这篇文章的目的，主要是记录自己创建博客的一个历程，如果你还没有创建过，不妨跟着这篇博客做起来。这篇文章是基于Windows平台</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客 | 如何让Butterfly主题导航栏居中</title>
+    <link href="http://example.com/2023/12/07/He%E5%A6%82%E4%BD%95%E8%AE%A9Butterfly%E4%B8%BB%E9%A2%98%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%B1%85%E4%B8%AD/"/>
+    <id>http://example.com/2023/12/07/He%E5%A6%82%E4%BD%95%E8%AE%A9Butterfly%E4%B8%BB%E9%A2%98%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%B1%85%E4%B8%AD/</id>
+    <published>2023-12-07T11:28:19.000Z</published>
+    <updated>2023-12-13T12:03:24.899Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>主题模板文件<br>  index.pug<br>     themes\butterfly\layout\includes\header\index.pug</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`if !theme.disable_top_img &amp;&amp; page.top_img !== false</span><br><span class="line">  if is_post()</span><br><span class="line">    - var top_img = page.top_img || page.cover || page.randomcover</span><br><span class="line">  else if is_page()</span><br><span class="line">    - var top_img = page.top_img || theme.default_top_img</span><br><span class="line">  else if is_tag()</span><br><span class="line">    - var top_img = theme.tag_per_img &amp;&amp; theme.tag_per_img[page.tag]</span><br><span class="line">    - top_img = top_img ? top_img : (theme.tag_img !== false ? theme.tag_img || theme.default_top_img : false)</span><br><span class="line">  else if is_category()</span><br><span class="line">    - var top_img = theme.category_per_img &amp;&amp; theme.category_per_img[page.category]</span><br><span class="line">    - top_img = top_img ? top_img : (theme.category_img !== false ? theme.category_img || theme.default_top_img : false)</span><br><span class="line">  else if is_home()</span><br><span class="line">    - var top_img = theme.index_img !== false ? theme.index_img || theme.default_top_img : false</span><br><span class="line">  else if is_archive()</span><br><span class="line">    - var top_img = theme.archive_img !== false ? theme.archive_img || theme.default_top_img : false</span><br><span class="line">  else</span><br><span class="line">    - var top_img = page.top_img || theme.default_top_img  if top_img !== false</span><br><span class="line">    - var imgSource = top_img &amp;&amp; top_img.indexOf(&#x27;/&#x27;) !== -1 ? background-image: url(&#x27;$&#123;url_for(top_img)&#125;&#x27;) : background: $&#123;top_img&#125;</span><br><span class="line">    - var bg_img = top_img ? imgSource : &#x27;&#x27;</span><br><span class="line">    - var site_title = is_archive() ? fragment_cache(&#x27;findArchivesTitle&#x27;, function()&#123;return findArchivesTitle(theme.menu);&#125;) : page.title || page.tag || page.category || config.title</span><br><span class="line">    - var isHomeClass = is_home() ? &#x27;full_page&#x27; : &#x27;not-home-page&#x27;</span><br><span class="line">    - is_post() ? isHomeClass = &#x27;post-bg&#x27; : isHomeClass</span><br><span class="line">  else</span><br><span class="line">    - var isHomeClass = &#x27;not-top-img&#x27;</span><br><span class="line">elsevar top_img = falsevar isHomeClass = &#x27;not-top-img&#x27;header#page-header(class=isHomeClass style=bg_img)</span><br><span class="line">  !=partial(&#x27;includes/header/nav&#x27;, &#123;&#125;, &#123;cache: true&#125;)</span><br><span class="line">  if top_img !== false</span><br><span class="line">    if is_post()</span><br><span class="line">      #coverdiv.coverdiv</span><br><span class="line">        img#post-cover.cover.entered.loading(alt=&#x27;cover&#x27; src=$&#123;top_img&#125;)</span><br><span class="line">      include ./post-info.pug</span><br><span class="line">    else if is_home()</span><br><span class="line">      #site-info</span><br><span class="line">        h1#site-title=site_title</span><br><span class="line">        if theme.subtitle.enable</span><br><span class="line">          - var loadSubJs = true</span><br><span class="line">          #site-subtitle</span><br><span class="line">            span#subtitle</span><br><span class="line">        if(theme.social)</span><br><span class="line">          #site_social_icons</span><br><span class="line">            !=fragment_cache(&#x27;social&#x27;, function()&#123;return partial(&#x27;includes/header/social&#x27;)&#125;)</span><br><span class="line">      #scroll-down</span><br><span class="line">        i.fas.fa-angle-down.scroll-down-effects</span><br><span class="line">    else</span><br><span class="line">      #coverdiv.coverdiv</span><br><span class="line">        img#post-cover.cover.entered.loading(alt=&#x27;cover&#x27; src=$&#123;top_img&#125;)</span><br><span class="line">      #page-site-info</span><br><span class="line">        h1#site-title=site_title`</span><br></pre></td></tr></table></figure><p>nav.pug</p><pre><code>themes\butterfly\layout\includes\header\nav.pug</code></pre><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">nav#nav  #nav-group</span><br><span class="line">    #blog_name</span><br><span class="line">      a#site-name(href=url_for(&#x27;/&#x27;)) #[=config.author]    #menus</span><br><span class="line">      !=partial(&#x27;includes/header/menu_item&#x27;, &#123;&#125;, &#123;cache: true&#125;)    #nav-right</span><br><span class="line">      if (theme.algolia_search.enable || theme.local_search.enable)</span><br><span class="line">        #search-button</span><br><span class="line">          a.nav-rightbutton.site-page.social-icon.search</span><br><span class="line">            i.fas.fa-search.fa-fw</span><br><span class="line">      #darkmode_navswitch</span><br><span class="line">        a.nav-rightbutton.site-page.darkmode_switchbutton(onclick=&quot;switchDarkMode()&quot;)</span><br><span class="line">          i.fas.fa-adjust</span><br><span class="line">      #toggle-menu</span><br><span class="line">        a.nav-rightbutton.site-page</span><br><span class="line">          i.fas.fa-bars.fa-fw</span><br></pre></td></tr></table></figure><p>上面提到的 <code>switchDarkMode()</code></p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">function switchDarkMode() &#123; // Switch Between Light And Dark Mode</span><br><span class="line">      const nowMode = document.documentElement.getAttribute(&#x27;data-theme&#x27;) === &#x27;dark&#x27; ? &#x27;dark&#x27; : &#x27;light&#x27;</span><br><span class="line">      if (nowMode === &#x27;light&#x27;) &#123;</span><br><span class="line">        activateDarkMode()</span><br><span class="line">        saveToLocal.set(&#x27;theme&#x27;, &#x27;dark&#x27;, 2)</span><br><span class="line">        GLOBAL_CONFIG.Snackbar !== undefined &amp;&amp; btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)</span><br><span class="line">      &#125; else &#123;</span><br><span class="line">        activateLightMode()</span><br><span class="line">        saveToLocal.set(&#x27;theme&#x27;, &#x27;light&#x27;, 2)</span><br><span class="line">        GLOBAL_CONFIG.Snackbar !== undefined &amp;&amp; btf.snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day)</span><br><span class="line">      &#125;</span><br><span class="line">      // handle some cases</span><br><span class="line">      typeof utterancesTheme === &#x27;function&#x27; &amp;&amp; utterancesTheme()</span><br><span class="line">      typeof FB === &#x27;object&#x27; &amp;&amp; window.loadFBComment()</span><br><span class="line">      window.DISQUS &amp;&amp; document.getElementById(&#x27;disqus_thread&#x27;).children.length &amp;&amp; setTimeout(() =&gt; window.disqusReset(), 200)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;主题模板文件&lt;br&gt;  index.pug&lt;br&gt;     themes&#92;butterfly&#92;layout&#92;includes&#92;header&#92;index.pug&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;</summary>
       
     
     
