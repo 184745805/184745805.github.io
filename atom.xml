@@ -6,15 +6,28 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-12-13T12:03:15.357Z</updated>
+  <updated>2023-12-27T02:28:12.984Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>Ying Z</name>
+    <name>-- 内心丰盈者，独行也如众 --</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2023/12/27/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/"/>
+    <id>http://example.com/2023/12/27/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/</id>
+    <published>2023-12-27T02:28:12.984Z</published>
+    <updated>2023-12-27T02:28:12.984Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo如何进行博客编写</title>
@@ -75,6 +88,39 @@
     <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
     
     <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客 | Win10激活——一条命令即可激活！</title>
+    <link href="http://example.com/2023/12/07/Win10%E6%BF%80%E6%B4%BB%E2%80%94%E2%80%94%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%8D%B3%E5%8F%AF%E6%BF%80%E6%B4%BB%EF%BC%81/"/>
+    <id>http://example.com/2023/12/07/Win10%E6%BF%80%E6%B4%BB%E2%80%94%E2%80%94%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%8D%B3%E5%8F%AF%E6%BF%80%E6%B4%BB%EF%BC%81/</id>
+    <published>2023-12-07T11:28:19.000Z</published>
+    <updated>2023-12-18T10:52:14.593Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>下载一些激活工具比较麻烦，难选择，有<strong>广告</strong>，这次只需要一个简单的命令</p><p>1.<strong>windows</strong>+R</p><p>2.输入<strong>powershell</strong> 回车</p><p>3.输入 irm <a href="https://link.zhihu.com/?target=https://massgrave.dev/get">https**:&#x2F;&#x2F;**massgrave.dev&#x2F;get</a> |iex 自动下载激活<strong>脚本</strong></p><p>4.输入<strong>数字</strong>“1”选择永久激活即</p><p><em><strong>详细步骤如下</strong></em></p><p><strong>windows</strong>中按<strong>快捷键</strong>windows+R键调出运行框</p><p>之后在框中输入 <strong>powershell</strong></p><p>之后输入 irm <a href="https://link.zhihu.com/?target=https://massgrave.dev/get">https:&#x2F;&#x2F;<strong>massgrave.dev&#x2F;get</strong></a> |iex 然后按下回车，会自动下载激活<strong>脚本</strong>并运行。</p><p>几个<strong>数字</strong>选项都看得懂，1是永久，2是2038年，3是180天，输入1就完事了是永久，其他肯定不是永久的不方便。</p><p>激活就成功了！</p><p><strong>家庭教育</strong>版亲测可行，如果发现没有效果的，原因在于你自己是不是拼错了、<strong>空格</strong>、缺少“|”符号，不是I<strong>字母</strong>，检查一下再试试！</p><p>最好直接复制内容</p><p>irm <a href="https://link.zhihu.com/?target=https://massgrave.dev/get">https://massgrave.dev/get</a> |iex</p><p>激活时闪退，尝试将杀毒防护<strong>软件</strong>先退出（放心没事），之后再尝试</p><p>输入内容后<strong>电脑</strong>没反应请耐心一点，等个三分钟会出现下个界面的</p><p>专业版企业版的也是可行的，个人尝试也激活成功，极个别出现无法激活情况原因未知</p><p>最后任何版本都可以选择万能的HEU_KMS_Activator，<strong>百度</strong>上直接输入HEU_KMS_Activator搜索了下载再激活，系统会提示危险，忽略允许执行即可。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;下载一些激活工具比较麻烦，难选择，有&lt;strong&gt;广告&lt;/strong&gt;，这次只需要一个简单的命令&lt;/p&gt;
+&lt;p&gt;1.&lt;strong&gt;windows&lt;/strong&gt;+R&lt;/p&gt;
+&lt;p&gt;2.输入&lt;strong&gt;powershell&lt;/strong&gt; 回车&lt;/p&gt;</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Hexo" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/Hexo/"/>
+    
+    
+    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="杂记" scheme="http://example.com/tags/%E6%9D%82%E8%AE%B0/"/>
     
   </entry>
   

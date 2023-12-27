@@ -1,3 +1,5 @@
+http://example.com/2023/12/27/%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86/
+http://example.com/2023/12/07/Win10%E6%BF%80%E6%B4%BB%E2%80%94%E2%80%94%E4%B8%80%E6%9D%A1%E5%91%BD%E4%BB%A4%E5%8D%B3%E5%8F%AF%E6%BF%80%E6%B4%BB%EF%BC%81/
 http://example.com/2023/12/07/He%E5%A6%82%E4%BD%95%E8%AE%A9Butterfly%E4%B8%BB%E9%A2%98%E5%AF%BC%E8%88%AA%E6%A0%8F%E5%B1%85%E4%B8%AD/
 http://example.com/2023/12/07/hexo%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99/
 http://example.com/2023/12/07/hello-world/
@@ -5,5 +7,6 @@ http://example.com/
 http://example.com/tags/Hexo/
 http://example.com/tags/%E4%B8%BB%E9%A2%98/
 http://example.com/tags/%E6%95%99%E7%A8%8B/
+http://example.com/tags/%E6%9D%82%E8%AE%B0/
 http://example.com/categories/%E6%95%99%E7%A8%8B/
 http://example.com/categories/%E6%95%99%E7%A8%8B/Hexo/
